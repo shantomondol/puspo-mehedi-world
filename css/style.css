@@ -406,20 +406,26 @@ p:last-child {
     color: #000;
     width: 350px;
     height: 350px;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 210px;
     margin-top: -80px;
     margin-left: 60px;
 }
 
 .aboutbadge.black span {
-    font-size: 16px;
+    margin-top: -40px;
+    font-size: 18px;
     font-weight: 300;
     padding: 90px;
+    text-align: left;
+}
+
+.aboutbadge.black span br {
+    margin-bottom: 10px;
 }
 
 .aboutbadge span {
-    line-height: 1.5;
+    line-height: 1.2;
     display: inline-block;
 }
 
@@ -444,8 +450,8 @@ p:last-child {
 
 .voucher-whitetransparent {
     display: Inline-block;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     background: rgba(255, 255, 255, 0.5);
     color: #333;
     border-radius: 100%;
@@ -453,19 +459,23 @@ p:last-child {
 
 .voucher-whitetransparent i.fa {
     color: #25E2F7;
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .voucher-whitetransparent h2 {
-    line-height: 1.5;
+    line-height: 1.3;
     font-weight: 300;
     color: #333;
     padding: 70px 30px 30px 30px;
-    font-size: 22px;
+    font-size: 35px;
+}
+
+.voucher-whitetransparent h2 strong {
+    font-weight: 500;
 }
 
 .voucher-whitetransparent a {
-    color: #A50965;
+    color: #6d0943;
     font-weight: 400;
     text-decoration: none;
     border-bottom: 1px dashed;
@@ -474,11 +484,11 @@ p:last-child {
 .pricingbadge {
     width: 220px;
     max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(190, 45, 90, 0.62);
     height: 220px;
     border-radius: 50%;
     padding: 7%;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
     line-height: 1.4;
     margin-left: 30px;
 }
@@ -490,7 +500,7 @@ p:last-child {
 }
 
 .pricingbadge h4 {
-    color: #be2d5a;
+    color: #fff;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -498,8 +508,6 @@ p:last-child {
 }
 
 .pricing_menu__row {
-    border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
-    /* Our dotted line, we can use border-image instead */
     position: relative;
     float: left;
     line-height: 1.2em;
@@ -510,7 +518,6 @@ p:last-child {
 
 .pricing_menu__meal {
     padding-right: 3em;
-    /* Custom number for space between text and right side of .pricing_menu__row; must be greater than .pricing_menu__price max-width to avoid overlapping */
 }
 
 .pricing_menu__meal span {
@@ -518,8 +525,8 @@ p:last-child {
     position: relative;
     top: 1.6em;
     padding-right: 5px;
-    background: #090a0d;
     line-height: 1.4;
+    font-size: large;
 }
 
 .pricing_menu__price {
@@ -527,9 +534,7 @@ p:last-child {
     position: relative;
     top: .4em;
     left: 1px;
-    /* ie6 rounding error*/
     float: right;
-    background: #090a0d;
 }
 
 a.fullpricelist {
@@ -1436,6 +1441,17 @@ footer .container {
     .logoarea .intro h1 span.smaller {
         font-size: 17px;
         line-height: 1.3;
+    }
+    .aboutbadge.black span {
+        margin-top: -10px;
+        margin-left: 10px;
+        font-size: 20px;
+        font-weight: 399.9;
+    }
+    .pricingbadge h4 {
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-bottom: -5px;
     }
 }
 
