@@ -347,11 +347,17 @@ p:last-child {
     width: 60px;
     height: 60px;
     text-align: center;
-    color: #c60f13;
+    color: #ffffff;
 }
 
+.hide {
+    color: #fff;
+}
 
-/* .fixedcallicon:hover {width:220px;background:rgba(245, 228, 25, 0.5);} */
+.fixedcallicon:hover {
+    width: 120px;
+    background-color: rgba(190, 45, 90, 0.62);
+}
 
 .intro h1 {
     font-family: Great Vibes;
