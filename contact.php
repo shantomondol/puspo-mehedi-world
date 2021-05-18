@@ -20,7 +20,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
 if (!$errors) {
 
 	//recipient - replace your email here
-	$to = 'wowthemesnet@gmail.com';	
+	$to = 'shantomondol816@gmail.com';	
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 	
